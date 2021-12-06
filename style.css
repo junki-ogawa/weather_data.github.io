@@ -1,0 +1,89 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background:#f1f1f1;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#nav_lat {
+    background: #00CED1;
+    color:f1f1f1;
+    padding:10px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#collapse {
+    padding:10px;
+    text-align: right;
+}
+
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header {
+    padding: 20px;
+    margin: 0 auto;
+    color: #00CED1;
+    text-align: left;
+}
+
+.viz {
+    margin: 0 auto;
+    text-align: right;
+}
+
+  /* Giving the .post element margin on 3 sides */
+.post {
+    margin: 0 auto;
+}
+
+#image_left {
+    float: left; 
+    margin: 5px;
+}
+
+#images {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+
+.skyblue {
+    text-align: center;
+    color: #00CED1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-md-7 {
+    background: #fdfdfd;
+}
+
+.col-md-3 {
+    background: #fdfdfd;
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+
+#navbarNavDropdown {
+    text-align: right;
+}
